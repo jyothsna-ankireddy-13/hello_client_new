@@ -1,0 +1,16 @@
+var mongoose = require('mongoose');
+
+const ownerSchema = mongoose.Schema({
+    email:{
+        type:String,
+        required:true
+    } ,
+    password:{
+        type:String,
+        required:true
+    } 
+
+});
+
+const Owner = mongoose.model('OWNER',ownerSchema);
+module.exports = Owner;
