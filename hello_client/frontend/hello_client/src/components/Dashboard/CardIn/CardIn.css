@@ -1,0 +1,62 @@
+.main {
+  max-width: 1200px;
+  margin: 20px 30px;
+}
+.divv {
+  justify-content: space-evenly;
+  background-color: white;
+}
+.cardin{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  float: left;
+  border: solid 2px #14535e;
+  margin: 10px;
+  padding: 0px; 
+}
+.xyz.col-sm-4{
+  background-color: white;
+  padding: 40px;
+}
+.iconscard {
+    margin: 10px;
+    height: 30px;
+}
+@media (min-width: 40rem) {
+  .cardin_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cardin_item {
+    width: 33.3333%;
+  }
+}
+.content {
+  padding: 1rem;
+  align-items: center;
+  margin: 0px 5px 10px 15px;
+  padding: 0px 5px 0px 5px;
+}
+
+.cardin-title {
+  color: #14535e;
+  font-size: 10;
+  font-family: Mulish;
+  margin: 0px 0px 10px;
+  font-family: Mulish;
+}
+.text {
+  font-family: Mulish;
+  color: #14535e;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+.imgspan{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}

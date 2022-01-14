@@ -1,0 +1,36 @@
+.page {
+  padding: 20px;
+  padding-top: 30px;
+  background-color: white;
+}
+._2hTXI
+{
+    border-radius: 4px;
+    font-family: Mulish;
+    font-size: 20px;
+    border: #14535e solid 1px;
+    width:200px;
+    color: #14535e;
+    margin: 10px;
+}
+.buttons-outer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.iconsdash{
+    height: 28px;
+    padding-bottom: 5px;
+}

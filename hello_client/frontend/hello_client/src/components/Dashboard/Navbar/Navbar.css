@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #E5E5E5;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.Header {
+  background-color: #14535e;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header-logo{
+  padding-inline: 30px;
+}
+
+.Header-logo h1{
+  font-size: 25px;
+}
+
+.Header-option {
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+}
+
+.Header-optionLineOne {
+  background-color: cadetblue;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.Header-search {
+  display: flex;
+  height: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.Header-searchIconContainer {
+  width: 45px;
+  background-color: #153E4E;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header-search input {
+  width: 900px;
+  align-items: center;
+  border: none;
+  font-size: 20px;
+}
+
+.Header-search input:focus {
+  outline: none;
+}
+
+
+.Header-navItems {
+  display: flex;
+  flex-direction: row;
+}
+
+.Header-optionCart {
+  background-color: brow  n;
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  align-content: flex-end;
+}
+
+.Header-cartCount {
+  font-weight: bold;
+  color: #f08804;
+  padding-left: 4px;
+}
+
+.Header a {
+  display: flex;
+  color: #DEECA3;
+  text-decoration: none;
+  font-size: 25px;
+  align-items: center;
+}

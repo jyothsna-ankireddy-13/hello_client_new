@@ -1,0 +1,59 @@
+.card{
+    margin: auto;
+    border-radius: 11px;
+    width: 291px;
+    padding: 10px;
+    height: auto;
+    overflow: hidden;
+    
+}
+.card-paragraphdate{
+    font-size: 10px;
+    color: #96A0A3;
+    margin: 0%;
+    margin-left: 6px;
+    padding: 0%;
+}
+.abc.col-sm-4{
+    background-color: #DEECA3;
+    padding: 15px;
+}
+.progress-bar{
+    width: 73%;
+}
+.card-title1{
+    color:white;
+    font-size: 27px;
+    font-weight: 200;
+}
+.iconspro{
+    margin: 10px 10px 3px 6px;
+}
+.mnp.row{
+    font-family: Mulish;
+    font-size: 15px;
+}
+.ab.card-paragraph{
+    margin: 10px;
+}
+.projctbut{
+    border:none;
+    color: #1B4A58;
+    font-size: 10px;
+    float: left;
+    border-radius: 5px;
+    width: 70px;
+    height: 20px;
+    margin: 5px 5px 5px 5px;
+}
+.progressbar{
+    width: 25%;
+}
+.card-title1{
+    color: #1B4A58;
+    margin: 5px;
+}
+.card-paragraph{
+    color: #96A0A3;
+    font-size: 12px;
+}

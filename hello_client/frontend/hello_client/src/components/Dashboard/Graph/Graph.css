@@ -1,0 +1,26 @@
+.ijk.col-sm-6{
+    align-items: center;
+}
+.ijk.container{
+    margin: 10px 0px 10px 10px;
+}
+.ijk.row{
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    color: #14535e;
+}
+.ab.col-sm-6{
+    float: right;
+    padding: 20px;
+    margin-right: 0px;
+}
+.graphinfo{
+    border: solid 2px #14535e;
+    width: auto;
+    height: auto;
+    padding: 10px 20px 10px 20px ;
+    background-color: white;
+    color: #14535e;
+    margin: 30px 20px 20px 30px;
+}

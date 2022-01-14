@@ -1,0 +1,29 @@
+.cbtn{
+    padding: 20px;
+    height: 140px;
+    width: 140px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #1B4A58;
+    color: #DEECA3;
+}
+.carouselbtn{
+    padding: 20px;
+    align-items: center;
+}
+.pa{
+    align-items: center;
+    margin: 10px 0px 10px 40px;
+    color: #1B4A58;
+}
+.Over{
+    padding: 20px 10px 10px 20px;
+    font-size: 30px;
+    font-weight:bold;
+    color: #1B4A58;
+}
+.arrowbtn{
+    background-color: #DEECA3;
+    border: none;
+    font-size: 35px;
+}

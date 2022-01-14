@@ -1,0 +1,31 @@
+.spana{
+    display: flex;
+    float: inherit;
+}
+.hclass{
+    clear: left;
+    font-weight: bold;
+}
+.pp{
+    padding: 20px;
+    padding-bottom: 20px;
+    color: #3C64B1;
+    font-weight: bold;
+}
+.p2{
+    margin: 10px 10px 0px 10px;
+}
+.Pbutton{
+    background-color: #1D4C5E;
+    color: white;
+    align-items: center;
+    padding: 5px;
+}
+.p1butttonouter{
+    margin-left: 24px;
+    color: white;
+}
+
+.iconspro{
+    color: white;
+}
