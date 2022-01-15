@@ -1,0 +1,35 @@
+.arrow{
+    color: #1D4C5E;
+    font-size: small;
+}
+.Projh1{
+    color: #1D4C5E;
+    font-size: x-large;
+}
+.profilelogo{
+    height: 30px;
+}
+.profilename{
+    color: #C1CD90;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.uploaddate{
+    color: #3C64B1;
+    font-size: 10px;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+.projdesc{
+    color: #737B7D;
+    margin: 0px;
+}
+.inliineprofile{
+    display: flex;
+}
+.asd{
+    background-color: white;
+    margin: 0px;
+    padding: 40px;
+}

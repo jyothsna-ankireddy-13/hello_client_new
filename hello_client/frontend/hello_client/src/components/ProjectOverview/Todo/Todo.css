@@ -1,0 +1,81 @@
+.todo.container-fluid{
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+
+}
+.todo.col-sm-4{
+    margin-bottom: 20px;
+
+}
+.todo.card{
+    background-color:white;
+    border: solid 2px #1B4A58;
+    height: auto;
+    width: 340px;
+}
+.block1{
+    display: flex;
+    padding: 20px 0px 0px 20px;     
+}
+.profilelogo{
+    height: 40px;
+    width: 40px;
+} 
+.projname{
+    color: #C1CD90;
+    font-size:18px;
+    font-weight:bold;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.name1{
+    color: #C1CD90;
+    font-size:15px;
+    padding-left: 30px;
+}
+.name{
+    color: #C1CD90;
+    margin: 0px 0px 0px 55px;
+    padding-left: 30px;
+
+}
+.projctbut{
+    border: none;
+    color: #3C64B1;
+    padding: 9px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.projctbut1{
+    border: none;
+    color: #3C64B1;
+    padding: 8px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+.checkbox1{
+    border: 1px solid #3C64B1;
+    color: black;
+    display: flex;
+    padding: 10px;
+}
+.datea{
+    color: #3C64B1;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: xx-small;
+}
+.taskh1{
+    margin-left: 10px;
+    color: #1B4A58;
+}
+.taskh11{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #1B4A58;
+}
+.col-sm{
+    flex:0 0 0%;
+}

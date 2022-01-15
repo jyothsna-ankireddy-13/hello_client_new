@@ -1,0 +1,90 @@
+.storybtn{
+    display: flex;
+}
+.container-fluid{
+    background-color: white;
+    padding: 5%;
+}
+
+.projbut{
+    border: none;
+    color: #1D4C5E;
+    background-color: #ECF0F8;
+    padding: 7px;
+    font-size: 20px;
+}
+.addstorybox{
+    background-color: #1B4A58;
+    padding: 2%;
+}
+.heada{
+    font-size: 30px;
+    margin-bottom: 4px;
+    color: #173D48;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hdiv{
+    background-color: #DEECA3;
+    margin: 0px;
+}
+.ppp{
+    background-color: #173D48;
+}
+.text{
+    width: 100%;
+}
+.expensehead{
+    color: black;
+}
+.col-sm{
+    display: flex;
+}
+.abc.col-sm{
+    float: right;
+}
+.spancls{
+    float: right;
+    font:small;
+}
+.iconsproa{
+    color: #173D48;
+}
+.date{
+    font-size: 15px;
+}
+.Rtspan{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.rtp{
+    color: blue;
+    font-size: small;
+    margin-left: 20px;
+    padding-top: 14px;
+}
+.rth1b{
+    background-color: #1B4A58;
+    color: white;
+    border: 1px solid;
+    padding: 10px 30px 10px 30px;
+}
+.rth1b2{
+    background-color: #DEECA3;
+    color: #1D4C5E;
+    border: 1px solid;
+    padding: 10px 10px 10px 10px;
+}
+.otrrt{
+    padding: 20px;
+}
+.rtb1{
+    color: #1D4C5E;
+    background-color: #ECF0F8;
+    padding: 3px 3px 3px 3px;
+}
+.rts{
+    flex-wrap: wrap;
+}

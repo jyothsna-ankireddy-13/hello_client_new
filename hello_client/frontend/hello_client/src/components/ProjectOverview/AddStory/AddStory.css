@@ -1,0 +1,37 @@
+.storybtn{
+    display: flex;
+}
+.container-fluid{
+    background-color: white;
+    padding: 5%;
+}
+
+.projbut{
+    background-color: #ECF0F8;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 10px;
+}
+.projbut13{
+    background-color: #DEECA3;
+    color: #1D4C5E;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 10px;
+}
+.addstorybox{
+    background-color: #1B4A58;
+    padding: 2%;
+}
+.head{
+    font-size: 25px;
+}
+.ppp{
+    background-color: #173D48;
+    padding: 10px;
+}
+.text{
+    width: 100%;
+}

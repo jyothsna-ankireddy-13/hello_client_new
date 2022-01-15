@@ -1,0 +1,62 @@
+.storybtn{
+    display: flex;
+}
+.container-fluid{
+    background-color: white;
+    padding: 5%;
+}
+
+.projbut{
+    border: none;
+    color: #1D4C5E;
+    background-color: #ECF0F8;
+    padding: 7px;
+    font-size: 20px;
+    margin-left: 10px;
+    width: auto;
+    float: right;
+}
+.addstorybox{
+    background-color: #1B4A58;
+    padding: 2%;
+}
+.head{
+    font-size: 30px;
+    margin-bottom: 4px;
+    color: #173D48;
+    padding: 30px;
+}
+.heada{
+    font-size: 30px;
+    margin-bottom: 4px;
+    color: #173D48;
+}
+.hdiv{
+    background-color: #DEECA3;
+    margin: 0px;
+}
+.ppp{
+    background-color: #173D48;
+}
+.text{
+    width: 100%;
+}
+.expensehead{
+    color: black;
+}
+.col-sm{
+    display: flex;
+}
+.abc.col-sm{
+    float: right;
+}
+.spancls{
+    float: right;
+    font:small;
+}
+.iconsproa{
+    color: #173D48;
+}
+.date{
+    font-size: 15px;
+}
