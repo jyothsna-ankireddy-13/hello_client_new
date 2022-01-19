@@ -1,0 +1,30 @@
+var mongoose = require('mongoose');
+
+const customerSchema = mongoose.Schema({
+    fullName:{
+        type:String,
+        required:true
+    } ,
+    email:{
+        type:String,
+        required:true
+    } ,
+    companyName:{
+        type:String,
+        required:true
+    } ,
+    mobile:{
+        type:String,
+        required:true
+    },
+    projectName:{
+        type:String,
+        required:true
+    } 
+      
+
+
+});
+
+const Customer = mongoose.model('CUSTOMER',customerSchema);
+module.exports = Customer;

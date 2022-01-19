@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 require('../db/dbconnection');
 const Owner = require("../models/ownerSchema")
+const Customer = require("../models/customerSchema")
 
 
 
@@ -73,7 +74,30 @@ router.post('/savedata',async(req,res)=>{
             
 })
 
+router.post('/addcustomer',async(req,res)=>{
+    
+    const {fullName,email,mobile,projectName,companyName} = req.body;
+    if(!fullName || !email || !mobile || !projectName || !companyName){
+            return res.status(422).json({error:"plz fill the required fields"});
+        }
+    try{
+        const customerExist = await Customer.findOne({email});
 
+        if(customerExist){
+            return res.status(422).json({error:"customer already exist"})
+        }
+        const customer = new Customer({fullName,email,mobile,projectName,companyName})
+            //new file
+        await customer.save()
+        res.status(201).json({message:"Customer added successfully"});
+    } catch(err){
+        console.log(err)
+    }
+    
+        
+            
+            
+})
 
 
 module.exports = router;
