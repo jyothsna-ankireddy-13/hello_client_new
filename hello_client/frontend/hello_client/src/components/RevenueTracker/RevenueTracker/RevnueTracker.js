@@ -1,8 +1,12 @@
 import React from "react";
 import "./RevenueTracker.css";
 import union from "./Union.svg";
-
+import {useNavigate} from 'react-router-dom';
 function RevenueTracker() {
+  const navigate = useNavigate()
+  const Quotation = () =>{
+    navigate('/quotation')
+  }
   return (
     <div className="container-fluid">
       <div className="hadiv">
@@ -10,7 +14,7 @@ function RevenueTracker() {
           Revenue Tracker<p className="rtp"> Dec 2021 - Jan 2022 month </p>
           <span className="spancls">
             <div>
-              <button className="projbut">Add Expence</button>
+              <button className="projbut" onClick={Quotation}>Add Expense</button>
               <button className="projbut"><img className="iconsproa" src={union} alt="User-add-icon" />Filter</button>
             </div>
           </span>

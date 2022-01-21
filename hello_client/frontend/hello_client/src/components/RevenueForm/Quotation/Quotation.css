@@ -1,0 +1,80 @@
+.container {
+  background-color: white;
+  justify-content: center;
+  padding: 5% 20% 5% 20%;
+}
+
+.Quotation.nbar {
+  background-color: #1b4a58;
+  margin: 5px 10px 0px 10px;
+  display: flex;
+}
+.Quotation.ndesc {
+  padding: 20px;
+  margin-bottom: 0px;
+  color: #deeca3;
+  display: flex;
+}
+.mb-3 {
+  margin: 5px 10px 0px 10px;
+}
+.Quotation.form-control.Desc {
+  height: 100px;
+}
+.Quotation.form-control {
+  margin-top: 10px;
+  border-radius: 0px;
+  background-color: #ecf0f8;
+}
+.Quotation.cardformbtn {
+  background-color: #deeca3;
+  color: #1b4a58;
+  padding: 5px 30px 5px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40%;
+}
+.Quotation.cardformbtna {
+  background-color: #deeca3;
+  color: #1b4a58;
+  padding: 5px 30px 5px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Quotation.blk {
+  background-color: #deeca3;
+  margin: 0px 10px 0px 10px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.Quotation.choose {
+  margin: 10px;
+  color: #1b4a58;
+  cursor: pointer;
+}
+.Quotation.flx {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Quotation.logo {
+  background-color: #deeca3;
+  color: #1b4a58;
+  padding: 5px 30px 5px 30px;
+}
+.Quotation.f22 {
+  margin-top: 10px;
+  background-color: #ecf0f8;
+  border: none;
+}
+.Quotation.ab.flx {
+  display: flex;
+  justify-content: space-around;
+}
+.aaa{
+  color: #1b4a58;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

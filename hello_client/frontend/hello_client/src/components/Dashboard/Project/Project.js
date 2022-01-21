@@ -2,14 +2,19 @@ import React from "react";
 import "./Project.css";
 import rec from "./Rectangle 25.svg";
 import tbl from "./Table_light.svg";
+import {useNavigate} from 'react-router-dom';
 
 function Dashproject() {
+  const navigate = useNavigate()
+  const openproject = () =>{
+    navigate('/projectoverview')
+  }
   return (
     <div>
       <div class="container-fluid">
         <div class="row">
           <div class="abc col-sm-4">
-            <div class="card">
+            <div class="card" onClick={openproject}>
               <p class="card-paragraphdate">10th june 2021</p>
               <h3 class="card-title1">Project name 1</h3>
               <p class="ab card-paragraph">

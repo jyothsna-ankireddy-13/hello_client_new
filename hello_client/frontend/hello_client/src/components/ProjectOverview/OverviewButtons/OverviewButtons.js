@@ -13,6 +13,9 @@ function OverviewButtons() {
   const Expence = () =>{
     navigate('/Expences')
   }
+  const revenueTracker = () =>{
+    navigate('/revenue')
+  }
 
   return (
     <div className="otr">
@@ -40,7 +43,7 @@ function OverviewButtons() {
           </button>
         </div>
         <div className="ab col-sm">
-          <button className="projctbutaa">Revenue</button>
+          <button className="projctbutaa" onClick={revenueTracker}>Revenue</button>
         </div>
         <div className="ab col-sm">
           <button className="projctbutab">Start Work</button>

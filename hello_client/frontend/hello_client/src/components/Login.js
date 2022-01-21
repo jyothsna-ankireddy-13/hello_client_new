@@ -24,7 +24,7 @@ const Login = () =>{
         })
         const data = res.json()
         if(res.status=== 422 || !data){
-            window.alert("Invali credentials")
+            window.alert("Invalid credentials")
         }else{
             //window.alert("Login Successful")
             navigate('/dashboard')

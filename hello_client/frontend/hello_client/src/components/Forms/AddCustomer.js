@@ -1,10 +1,10 @@
 import React from 'react'
+import AddCustomerForm from './AddCustomer/AddCustomerForm'
 
-import AddCustomerForm from './AddCustomerForm'
-//import {makeStyles} from '@material-ui/core'
 
 const AddCustomer=()=> {
-   
+
+    
     return (
         <div>
                

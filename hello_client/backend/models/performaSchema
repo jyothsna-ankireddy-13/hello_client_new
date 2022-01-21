@@ -1,0 +1,43 @@
+var mongoose = require('mongoose');
+
+const performaSchema = mongoose.Schema({
+    sendDate:{
+        type:String,
+        required:true
+    } ,
+    performaNumber:{
+        type:String,
+        required:true
+    } ,
+    price:{
+        type:String,
+        required:true
+    } ,
+    reminderDate:{
+        type:String,
+        required:true
+    },
+    createdBy:{
+        type:String,
+        required:true
+    } ,
+    sendTo:{
+        type:String,
+        required:true
+    } ,
+    paymentMode:{
+        type:String,
+        required:true
+    } ,
+
+    billImage:{
+        type:String,
+        required:true
+    } 
+      
+
+
+});
+
+const Performa = mongoose.model('PERFORMA',performaSchema);
+module.exports = Performa;

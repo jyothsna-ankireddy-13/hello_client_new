@@ -2,10 +2,10 @@ const dotenv = require('dotenv')
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const cors = require('cors')
+const cors = require('cors');
 
 
-//const File = require('./models/fileSchema')
+
 
 dotenv.config({path:'./config.env'})
 const port = 5001;
@@ -37,6 +37,7 @@ const middleware = (req,res,next)=>{
 
 
 app.use(require('./router/auth')) ;
+app.use(require('./router/invoice'));
 
 
 

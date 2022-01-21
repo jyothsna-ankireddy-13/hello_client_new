@@ -1,0 +1,43 @@
+var mongoose = require('mongoose');
+
+const quotationSchema = mongoose.Schema({
+    sendDate:{
+        type:String,
+        required:true
+    } ,
+    quoteNumber:{
+        type:String,
+        required:true
+    } ,
+    price:{
+        type:String,
+        required:true
+    } ,
+    reminderDate:{
+        type:String,
+        required:true
+    },
+    createdBy:{
+        type:String,
+        required:true
+    } ,
+    sendTo:{
+        type:String,
+        required:true
+    } ,
+    paymentMode:{
+        type:String,
+        required:true
+    } ,
+
+    billImage:{
+        type:String,
+        required:true
+    } 
+      
+
+
+});
+
+const Quotation = mongoose.model('QUOTATION',quotationSchema);
+module.exports = Quotation;
